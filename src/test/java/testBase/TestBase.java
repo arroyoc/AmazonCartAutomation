@@ -23,6 +23,11 @@ public class TestBase {
         }
     }
 
+    public static void webTearDown() {
+        wdriver.quit();
+        wdriver = null;
+    }
+
     // ########### Frequently used methods ###############
 
     protected HeaderPage loadAmazonHome(){
