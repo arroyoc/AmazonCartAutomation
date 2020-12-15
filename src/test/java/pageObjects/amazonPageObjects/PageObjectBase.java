@@ -17,6 +17,7 @@ public class PageObjectBase {
         this.driver = wdriver;
     }
 
+    //Wait for element
     public WebElement waitForElement(By locator) {
 
         try {
@@ -31,6 +32,7 @@ public class PageObjectBase {
         return driver.findElement(locator);
     }
 
+    //Wait for element > then click it
     public WebElement waitAndClick(By locator) {
         WebElement element = waitForElement(locator);
         element.click();
