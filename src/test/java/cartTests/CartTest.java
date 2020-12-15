@@ -29,33 +29,54 @@ public class CartTest extends TestBase {
     @Test
     public void cartTest() throws InterruptedException {
         String item1 = "LG 24UD58-B 24-Inch 4k Monitor";
+        String item1Desc = "LG 24UD58-B 24-Inch 4K UHD IPS Monitor with FreeSync";
         String item2 = "Metasploit: The Penetration Tester's Guide Book";
+        String item2Desc = "Metasploit: The Penetration Tester's Guide";
         String item3 = "Covocup Live Love Meow Cup, 16 oz, Multicolor";
 
         //Load amazon page
         loadAmazonHome();
         //Assert Page: Amazon Home screen
         //Search for item1: "LG 24UD58-B 24-Inch 4k Monitor"
-        hp.searchForProduct(item1);
-        Thread.sleep(5000);
+        hp.searchForProduct(item1)
         //Assert Page: Search screen
         //Click on item1: "LG 24UD58-B 24-Inch 4k Monitor"
+          .selectProduct(item1Desc)
+
+
         //Assert Page: Product Detail Page
         //Add item1 to cart
+          .addToCartWarrantyOption(false)
         //Verify item1 was added to cart
+          .clickCartBtn()
+                .verifyProductIsInCart(item1Desc);
+
+        //###-------------
+
+
 
         //Search for item2: "Metasploit: The Penetration Tester's Guide Book"
+        hp.searchForProduct(item2)
         //Assert Page: Search screen
         //Click on item2: "Metasploit: The Penetration Tester's Guide Book"
+        .selectProduct(item2Desc)
         //Assert Page: Product Detail Page
         //Add item2 to cart
+        .addToCart()
         //Verify item2 was added to cart
+        .clickCartBtn()
+                .verifyProductIsInCart(item2Desc);
+
+        //###-------------
 
         //Search for item3: "a cup with a cat on it"
+        hp.searchForProduct(item3)
         //Assert Page: Search screen
         //Click on item3: "a cup with a cat on it"
+        .selectProduct(item3)
         //Assert Page: Product Detail Page
         //Screenshot page: Product Detail Page
+        .takeScreenshot();
         //Add item3 to cart
         //Verify item3 was added to cart
 

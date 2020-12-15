@@ -9,6 +9,7 @@ public class HeaderPage extends PageObjectBase{
 
     private By searchTxtBox = By.id("twotabsearchtextbox");
     private By searchSubmitBtn = By.id("nav-search-submit-text");
+    private By cartBtn = By.id("nav-cart-count");
 
     public HeaderPage(WebDriver wdriver) {
         super(wdriver);
@@ -24,5 +25,10 @@ public class HeaderPage extends PageObjectBase{
         waitForElement(searchTxtBox).sendKeys(productName);
         waitAndClick(searchSubmitBtn);
         return new ProductSearchPage(driver);
+    }
+
+    public CartPage clickCartBtn(){
+        waitAndClick(cartBtn);
+        return new CartPage(driver);
     }
 }
