@@ -12,6 +12,7 @@ public class TestBase {
 
     // ############ WEB SETUP ##############
 
+    //start webdriver if not already started
     protected static void webSetup() throws IOException {
 
         // Check if web driver has already been instantiated
@@ -23,6 +24,7 @@ public class TestBase {
         }
     }
 
+    //close webdriver
     public static void webTearDown() {
         wdriver.quit();
         wdriver = null;
@@ -30,8 +32,13 @@ public class TestBase {
 
     // ########### Frequently used methods ###############
 
+    // Load the amazon home screen
     protected HeaderPage loadAmazonHome(){
         HeaderPage hp = new HeaderPage(wdriver);
         return hp.loadHomePage(amazonUrl);
     }
+
+
+
+
 }
