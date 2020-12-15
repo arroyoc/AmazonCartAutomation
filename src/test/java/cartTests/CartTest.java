@@ -1,11 +1,13 @@
 package cartTests;
 
+import pageObjects.amazonPageObjects.HeaderPage;
 import testBase.TestBase;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 public class CartTest extends TestBase {
+    HeaderPage hp = new HeaderPage(wdriver);
 
     @BeforeAll
     public static void setUp() throws Exception {
@@ -25,11 +27,17 @@ public class CartTest extends TestBase {
     //Perform assertions on each page to verify on correct page
 
     @Test
-    public void cartTest(){
+    public void cartTest() throws InterruptedException {
+        String item1 = "LG 24UD58-B 24-Inch 4k Monitor";
+        String item2 = "Metasploit: The Penetration Tester's Guide Book";
+        String item3 = "Covocup Live Love Meow Cup, 16 oz, Multicolor";
+
         //Load amazon page
         loadAmazonHome();
         //Assert Page: Amazon Home screen
         //Search for item1: "LG 24UD58-B 24-Inch 4k Monitor"
+        hp.searchForProduct(item1);
+        Thread.sleep(5000);
         //Assert Page: Search screen
         //Click on item1: "LG 24UD58-B 24-Inch 4k Monitor"
         //Assert Page: Product Detail Page
