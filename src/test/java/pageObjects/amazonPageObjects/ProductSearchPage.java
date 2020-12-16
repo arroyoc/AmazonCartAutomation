@@ -10,6 +10,7 @@ public class ProductSearchPage extends PageObjectBase{
     }
 
     public ProductDetailPage selectProduct(String productDesc){
+        System.out.println("Selecting product with description: " + "'" + productDesc + "'");
         waitAndClick(By.linkText(productDesc));
         return new ProductDetailPage(driver);
     }

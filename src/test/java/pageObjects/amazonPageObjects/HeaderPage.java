@@ -22,6 +22,7 @@ public class HeaderPage extends PageObjectBase{
     }
 
     public ProductSearchPage searchForProduct(String productName){
+        System.out.println("Searching for item: " + "'" + productName + "'" + "...");
         waitForElement(searchTxtBox).sendKeys(productName);
         waitAndClick(searchSubmitBtn);
         return new ProductSearchPage(driver);

@@ -35,6 +35,7 @@ public class TestBase {
     // Load the amazon home screen
     protected HeaderPage loadAmazonHome(){
         HeaderPage hp = new HeaderPage(wdriver);
+        System.out.println("Opening Amazon webpage...");
         return hp.loadHomePage(amazonUrl);
     }
 
