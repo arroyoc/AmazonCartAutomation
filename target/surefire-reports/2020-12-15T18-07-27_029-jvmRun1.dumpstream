@@ -1,0 +1,234 @@
+# Created at 2020-12-15T18:07:32.758
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: null
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2020-12-15T18:07:33.122
+Unexpected IOException with stream: [
+
+# Created at 2020-12-15T18:07:33.129
+Unexpected IOException with stream: 1
+
+# Created at 2020-12-15T18:07:33.130
+Unexpected IOException with stream: 6
+
+# Created at 2020-12-15T18:07:33.131
+Unexpected IOException with stream: 0
+
+# Created at 2020-12-15T18:07:33.132
+Unexpected IOException with stream: 8
+
+# Created at 2020-12-15T18:07:33.133
+Unexpected IOException with stream: 0
+
+# Created at 2020-12-15T18:07:33.133
+Unexpected IOException with stream: 8
+
+# Created at 2020-12-15T18:07:33.134
+Unexpected IOException with stream: 0
+
+# Created at 2020-12-15T18:07:33.134
+Unexpected IOException with stream: 8
+
+# Created at 2020-12-15T18:07:33.134
+Unexpected IOException with stream: 5
+
+# Created at 2020-12-15T18:07:33.134
+Unexpected IOException with stream: 3
+
+# Created at 2020-12-15T18:07:33.135
+Unexpected IOException with stream: .
+
+# Created at 2020-12-15T18:07:33.135
+Unexpected IOException with stream: 1
+
+# Created at 2020-12-15T18:07:33.135
+Unexpected IOException with stream: 2
+
+# Created at 2020-12-15T18:07:33.136
+Unexpected IOException with stream: 2
+
+# Created at 2020-12-15T18:07:33.136
+Unexpected IOException with stream: ]
+
+# Created at 2020-12-15T18:07:33.136
+Unexpected IOException with stream: [
+
+# Created at 2020-12-15T18:07:33.137
+Unexpected IOException with stream: W
+
+# Created at 2020-12-15T18:07:33.137
+Unexpected IOException with stream: A
+
+# Created at 2020-12-15T18:07:33.137
+Unexpected IOException with stream: R
+
+# Created at 2020-12-15T18:07:33.137
+Unexpected IOException with stream: N
+
+# Created at 2020-12-15T18:07:33.138
+Unexpected IOException with stream: I
+
+# Created at 2020-12-15T18:07:33.138
+Unexpected IOException with stream: N
+
+# Created at 2020-12-15T18:07:33.138
+Unexpected IOException with stream: G
+
+# Created at 2020-12-15T18:07:33.139
+Unexpected IOException with stream: ]
+
+# Created at 2020-12-15T18:07:33.139
+Unexpected IOException with stream: :
+
+# Created at 2020-12-15T18:07:33.139
+Unexpected IOException with stream:  
+
+# Created at 2020-12-15T18:07:33.140
+Unexpected IOException with stream: T
+
+# Created at 2020-12-15T18:07:33.140
+Unexpected IOException with stream: i
+
+# Created at 2020-12-15T18:07:33.140
+Unexpected IOException with stream: m
+
+# Created at 2020-12-15T18:07:33.140
+Unexpected IOException with stream: e
+
+# Created at 2020-12-15T18:07:33.141
+Unexpected IOException with stream: d
+
+# Created at 2020-12-15T18:07:33.141
+Unexpected IOException with stream:  
+
+# Created at 2020-12-15T18:07:33.141
+Unexpected IOException with stream: o
+
+# Created at 2020-12-15T18:07:33.142
+Unexpected IOException with stream: u
+
+# Created at 2020-12-15T18:07:33.144
+Unexpected IOException with stream: t
+
+# Created at 2020-12-15T18:07:33.144
+Unexpected IOException with stream:  
+
+# Created at 2020-12-15T18:07:33.144
+Unexpected IOException with stream: c
+
+# Created at 2020-12-15T18:07:33.145
+Unexpected IOException with stream: o
+
+# Created at 2020-12-15T18:07:33.145
+Unexpected IOException with stream: n
+
+# Created at 2020-12-15T18:07:33.145
+Unexpected IOException with stream: n
+
+# Created at 2020-12-15T18:07:33.146
+Unexpected IOException with stream: e
+
+# Created at 2020-12-15T18:07:33.146
+Unexpected IOException with stream: c
+
+# Created at 2020-12-15T18:07:33.146
+Unexpected IOException with stream: t
+
+# Created at 2020-12-15T18:07:33.146
+Unexpected IOException with stream: i
+
+# Created at 2020-12-15T18:07:33.147
+Unexpected IOException with stream: n
+
+# Created at 2020-12-15T18:07:33.147
+Unexpected IOException with stream: g
+
+# Created at 2020-12-15T18:07:33.147
+Unexpected IOException with stream:  
+
+# Created at 2020-12-15T18:07:33.148
+Unexpected IOException with stream: t
+
+# Created at 2020-12-15T18:07:33.148
+Unexpected IOException with stream: o
+
+# Created at 2020-12-15T18:07:33.148
+Unexpected IOException with stream:  
+
+# Created at 2020-12-15T18:07:33.149
+Unexpected IOException with stream: C
+
+# Created at 2020-12-15T18:07:33.149
+Unexpected IOException with stream: h
+
+# Created at 2020-12-15T18:07:33.149
+Unexpected IOException with stream: r
+
+# Created at 2020-12-15T18:07:33.150
+Unexpected IOException with stream: o
+
+# Created at 2020-12-15T18:07:33.150
+Unexpected IOException with stream: m
+
+# Created at 2020-12-15T18:07:33.150
+Unexpected IOException with stream: e
+
+# Created at 2020-12-15T18:07:33.150
+Unexpected IOException with stream: ,
+
+# Created at 2020-12-15T18:07:33.151
+Unexpected IOException with stream:  
+
+# Created at 2020-12-15T18:07:33.151
+Unexpected IOException with stream: r
+
+# Created at 2020-12-15T18:07:33.151
+Unexpected IOException with stream: e
+
+# Created at 2020-12-15T18:07:33.152
+Unexpected IOException with stream: t
+
+# Created at 2020-12-15T18:07:33.152
+Unexpected IOException with stream: r
+
+# Created at 2020-12-15T18:07:33.152
+Unexpected IOException with stream: y
+
+# Created at 2020-12-15T18:07:33.153
+Unexpected IOException with stream: i
+
+# Created at 2020-12-15T18:07:33.153
+Unexpected IOException with stream: n
+
+# Created at 2020-12-15T18:07:33.153
+Unexpected IOException with stream: g
+
+# Created at 2020-12-15T18:07:33.153
+Unexpected IOException with stream: .
+
+# Created at 2020-12-15T18:07:33.154
+Unexpected IOException with stream: .
+
+# Created at 2020-12-15T18:07:33.154
+Unexpected IOException with stream: .
+
+# Created at 2020-12-15T18:07:33.154
+Unexpected IOException with stream: 
+
+# Created at 2020-12-15T18:07:33.154
+Unexpected IOException with stream: 
+
+
+# Created at 2020-12-15T18:07:41.157
+Unexpected IOException: 7,1,cartTests.CartTest,cartTests.CartTest,null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=87.0.4280.88)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-AQCERG9'\002C ip: '192.168.86.36'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x011DC0C3+3326147]\000A\0009Ordinal0 [0x010C0851+2164817]\000A\0009Ordinal0 [0x00F47140+618816]\000A\0009Ordinal0 [0x00F3D404+578564]\000A\0009Ordinal0 [0x00F3DACB+580299]\000A\0009Ordinal0 [0x00F3ED35+585013]\000A\0009Ordinal0 [0x00F39D61+564577]\000A\0009Ordinal0 [0x00F482C0+623296]\000A\0009Ordinal0 [0x00EE6BDD+224221]\000A\0009Ordinal0 [0x00EE5CAC+220332]\000A\0009Ordinal0 [0x00EE189B+202907]\000A\0009Ordinal0 [0x00EC3DF4+81396]\000A\0009Ordinal0 [0x00EC4DEE+85486]\000A\0009Ordinal0 [0x00EC4D79+85369]\000A\0009Ordinal0 [0x010D85DC+2262492]\000A\0009GetHandleVerifier [0x01362874+1487204]\000A\0009GetHandleVerifier [0x013623CD+1486013]\000A\0009GetHandleVerifier [0x0136A368+1518680]\000A\0009GetHandleVerifier [0x01362F4E+1488958]\000A\0009Ordinal0 [0x010CED0D+2223373]\000A\0009Ordinal0 [0x010DA12B+2269483]\000A\0009Ordinal0 [0x010DA26F+2269807]\000A\0009Ordinal0 [0x010EECB8+2354360]\000A\0009BaseThreadInitThunk [0x76D7FA29+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x771375F4+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x771375C4+180]\000A,null,session not created\000Afrom chrome not reachable\000A  (Session info: chrome=87.0.4280.88)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-AQCERG9'\002C ip: '192.168.86.36'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x011DC0C3+3326147]\000A\0009Ordinal0 [0x010C0851+2164817]\000A\0009Ordinal0 [0x00F47140+618816]\000A\0009Ordinal0 [0x00F3D404+578564]\000A\0009Ordinal0 [0x00F3DACB+580299]\000A\0009Ordinal0 [0x00F3ED35+585013]\000A\0009Ordinal0 [0x00F39D61+564577]\000A\0009Ordinal0 [0x00F482C0+623296]\000A\0009Ordinal0 [0x00EE6BDD+224221]\000A\0009Ordinal0 [0x00EE5CAC+220332]\000A\0009Ordinal0 [0x00EE189B+202907]\000A\0009Ordinal0 [0x00EC3DF4+81396]\000A\0009Ordinal0 [0x00EC4DEE+85486]\000A\0009Ordinal0 [0x00EC4D79+85369]\000A\0009Ordinal0 [0x010D85DC+2262492]\000A\0009GetHandleVerifier [0x01362874+1487204]\000A\0009GetHandleVerifier [0x013623CD+1486013]\000A\0009GetHandleVerifier [0x0136A368+1518680]\000A\0009GetHandleVerifier [0x01362F4E+1488958]\000A\0009Ordinal0 [0x010CED0D+2223373]\000A\0009Ordinal0 [0x010DA12B+2269483]\000A\0009Ordinal0 [0x010DA26F+2269807]\000A\0009Ordinal0 [0x010EECB8+2354360]\000A\0009BaseThreadInitThunk [0x76D7FA29+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x771375F4+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x771375C4+180]\000A,CartTest.setUp:14->TestBase.webSetup:23 \00BB SessionNotCreated session not create...,org.openqa.selenium.SessionNotCreatedException: \000Asession not created\000Afrom chrome not reachable\000A  (Session info: chrome=87.0.4280.88)\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-AQCERG9'\002C ip: '192.168.86.36'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_251'\000ADriver info: driver.version: ChromeDriver\000Aremote stacktrace: Backtrace:\000A\0009Ordinal0 [0x011DC0C3+3326147]\000A\0009Ordinal0 [0x010C0851+2164817]\000A\0009Ordinal0 [0x00F47140+618816]\000A\0009Ordinal0 [0x00F3D404+578564]\000A\0009Ordinal0 [0x00F3DACB+580299]\000A\0009Ordinal0 [0x00F3ED35+585013]\000A\0009Ordinal0 [0x00F39D61+564577]\000A\0009Ordinal0 [0x00F482C0+623296]\000A\0009Ordinal0 [0x00EE6BDD+224221]\000A\0009Ordinal0 [0x00EE5CAC+220332]\000A\0009Ordinal0 [0x00EE189B+202907]\000A\0009Ordinal0 [0x00EC3DF4+81396]\000A\0009Ordinal0 [0x00EC4DEE+85486]\000A\0009Ordinal0 [0x00EC4D79+85369]\000A\0009Ordinal0 [0x010D85DC+2262492]\000A\0009GetHandleVerifier [0x01362874+1487204]\000A\0009GetHandleVerifier [0x013623CD+1486013]\000A\0009GetHandleVerifier [0x0136A368+1518680]\000A\0009GetHandleVerifier [0x01362F4E+1488958]\000A\0009Ordinal0 [0x010CED0D+2223373]\000A\0009Ordinal0 [0x010DA12B+2269483]\000A\0009Ordinal0 [0x010DA26F+2269807]\000A\0009Ordinal0 [0x010EECB8+2354360]\000A\0009BaseThreadInitThunk [0x76D7FA29+25]\000A\0009RtlGetAppContainerNamedObjectPath [0x771375F4+228]\000A\0009RtlGetAppContainerNamedObjectPath [0x771375C4+180]\000A\000A\0009at cartTests.CartTest.setUp(CartTest.java:14)\000A
+
+
+# Created at 2020-12-15T18:07:41.158
+Unexpected IOException: 2,1,org.apache.maven.surefire.junitplatform.JUnitPlatformProvider,cartTests.CartTest,null,null,null
+
+

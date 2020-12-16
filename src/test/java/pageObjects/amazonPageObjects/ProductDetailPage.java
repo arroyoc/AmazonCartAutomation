@@ -22,7 +22,7 @@ public class ProductDetailPage extends PageObjectBase{
         return new HeaderPage(driver);
     }
 
-    public HeaderPage addToCartWarrantyOption(boolean acceptWarranty) throws InterruptedException {
+    public HeaderPage addToCartWarrantyOption(boolean acceptWarranty){
         if (!acceptWarranty) {
             System.out.println("Adding product to cart...");
             waitAndClick(addToCartbtn);
@@ -39,7 +39,7 @@ public class ProductDetailPage extends PageObjectBase{
 
         //Copy the file to a location and use try catch block to handle exception
         try {
-            System.out.println("Taking screenshot...");
+            System.out.println("Taking screenshot..." + " see 'catcup.png' in screenshots folder...");
             FileUtils.copyFile(screenshot, new File("src//test//java//screenshots//catcup.png"));
         } catch (IOException e) {
             System.out.println(e.getMessage());

@@ -27,22 +27,26 @@ public class CartTest extends TestBase {
     //Perform assertions on each page to verify on correct page
 
     @Test
-    public void cartTest() throws InterruptedException {
+    public void cartTest() {
+
+        //Constant variables
         String item1 = "LG 24UD58-B 24-Inch 4k Monitor";
         String item1Desc = "LG 24UD58-B 24-Inch 4K UHD IPS Monitor with FreeSync";
         String item2 = "Metasploit: The Penetration Tester's Guide Book";
         String item2Desc = "Metasploit: The Penetration Tester's Guide";
         String item3 = "Covocup Live Love Meow Cup, 16 oz, Multicolor";
 
+        // Beginning of test:
+
         //Load amazon page
         loadAmazonHome();
+
         //Assert Page: Amazon Home screen
         //Search for item1: "LG 24UD58-B 24-Inch 4k Monitor"
         hp.searchForProduct(item1)
         //Assert Page: Search screen
         //Click on item1: "LG 24UD58-B 24-Inch 4k Monitor"
           .selectProduct(item1Desc)
-
 
         //Assert Page: Product Detail Page
         //Add item1 to cart
@@ -51,23 +55,15 @@ public class CartTest extends TestBase {
           .clickCartBtn()
                 .verifyProductIsInCart(item1Desc);
 
-        //###-------------
-
-
-
-        //Search for item2: "Metasploit: The Penetration Tester's Guide Book"
+        //Search for item2: "Metasploit: The Penetration Tester's Guide Book" && //Assert Page: Search screen
         hp.searchForProduct(item2)
-        //Assert Page: Search screen
-        //Click on item2: "Metasploit: The Penetration Tester's Guide Book"
+        //Click on item2: "Metasploit: The Penetration Tester's Guide Book" && //Assert Page: Product Detail Page
         .selectProduct(item2Desc)
-        //Assert Page: Product Detail Page
         //Add item2 to cart
         .addToCart()
         //Verify item2 was added to cart
         .clickCartBtn()
                 .verifyProductIsInCart(item2Desc);
-
-        //###-------------
 
         //Search for item3: "a cup with a cat on it"
         hp.searchForProduct(item3)
@@ -91,18 +87,12 @@ public class CartTest extends TestBase {
                 .verifyProductIsInCart(item2Desc)
                 .verifyProductIsInCart(item3);
 
-
-
         //Remove item1: "LG 24UD58-B 24-Inch 4k Monitor" from cart
         hp.clickCartBtn()
                 .deleteProductFromCart(item1Desc)
 //
 //        //Verify item1 was removed from cart
                 .verifyProductIsNotCart(item1Desc);
-
-        Thread.sleep(5000);
-
-
 
     }
 }
