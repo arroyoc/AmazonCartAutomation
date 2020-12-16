@@ -76,16 +76,31 @@ public class CartTest extends TestBase {
         .selectProduct(item3)
         //Assert Page: Product Detail Page
         //Screenshot page: Product Detail Page
-        .takeScreenshot();
+        .takeScreenshot()
         //Add item3 to cart
+        .addToCart()
         //Verify item3 was added to cart
+        .clickCartBtn()
+                .verifyProductIsInCart(item3);
 
         //Open cart screen
+        hp.clickCartBtn()
         //Assert Page: Cart Screen
         //Verify item1, item2, item3 are in cart
+          .verifyProductIsInCart(item1Desc)
+                .verifyProductIsInCart(item2Desc)
+                .verifyProductIsInCart(item3);
+
+
 
         //Remove item1: "LG 24UD58-B 24-Inch 4k Monitor" from cart
-        //Verify item1 was removed from cart
+        hp.clickCartBtn()
+                .deleteProductFromCart(item1Desc)
+//
+//        //Verify item1 was removed from cart
+                .verifyProductIsNotCart(item1Desc);
+
+        Thread.sleep(5000);
 
 
 
